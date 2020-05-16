@@ -1,7 +1,8 @@
-function Cat(name, age) {
+function Cat(name, age, weight) {
     this.name = name;
     this.age = age;
-    this.stomach = []
+    this.stomach = [];
+    this.weight = weight
 }
 
 Cat.prototype.eat = function(mouse){
